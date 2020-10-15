@@ -46,6 +46,6 @@ export declare class AceEditorComponent implements ControlValueAccessor, OnInit,
     set durationBeforeCallback(num: number);
     setDurationBeforeCallback(num: number): void;
     getEditor(): any;
-    static ɵfac: i0.ɵɵFactoryDef<AceEditorComponent>;
-    static ɵcmp: i0.ɵɵComponentDefWithMeta<AceEditorComponent, "ace-editor", never, { "style": "style"; "options": "options"; "readOnly": "readOnly"; "theme": "theme"; "mode": "mode"; "value": "value"; "text": "text"; "autoUpdateContent": "autoUpdateContent"; "durationBeforeCallback": "durationBeforeCallback"; }, { "textChanged": "textChanged"; "textChange": "textChange"; }, never>;
+    static ɵfac: i0.ɵɵFactoryDef<AceEditorComponent, never>;
+    static ɵcmp: i0.ɵɵComponentDefWithMeta<AceEditorComponent, "ace-editor", never, { "style": "style"; "options": "options"; "readOnly": "readOnly"; "theme": "theme"; "mode": "mode"; "value": "value"; "text": "text"; "autoUpdateContent": "autoUpdateContent"; "durationBeforeCallback": "durationBeforeCallback"; }, { "textChanged": "textChanged"; "textChange": "textChange"; }, never, never>;
 }
